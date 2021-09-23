@@ -5,7 +5,7 @@ import math
 import telebot
 import requests,json
 
-bot = telebot.TeleBot("1833965055:AAFSakatm6xX5g1w0wk5kyCM-5Tx26rnxLg")
+bot = telebot.TeleBot("")
 
 def get_connect (Str):
      key = "8ab8dd8e10c2a1ae46c279684b638c3e"
