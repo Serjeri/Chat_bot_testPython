@@ -8,7 +8,7 @@ import requests,json
 bot = telebot.TeleBot("")
 
 def get_connect (Str):
-     key = "8ab8dd8e10c2a1ae46c279684b638c3e"
+     key = ""
      URL_TEMPLATE = "http://api.openweathermap.org/data/2.5/weather?q=" + Str + "&appid=" + key
      w = requests.get( URL_TEMPLATE ).json()
      Celsium = (w['main']['temp'] - 32) * 5 / 9
